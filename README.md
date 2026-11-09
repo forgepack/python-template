@@ -14,7 +14,8 @@ python.exe -m pip install --upgrade pip
 pip install --upgrade -r requirements.txt
 
 # run application
-uvicorn app.main:app --reload
+#uvicorn app.main:app --reload --env-file .env
+python -m app.main
 
 # test coverage verification
 python -m pytest --cov=app --cov-report=term-missing
