@@ -20,12 +20,14 @@
 
 ## Development
 
+This project requires Python 3.13 or later.
+
 ```bash
 # create virtual environment
 # Windows PowerShell
-python -m venv .venv
+py -3.13 -m venv .venv
 # Linux
-python3 -m venv .venv
+python3.13 -m venv .venv
 
 # activate virtual environment
 # Windows PowerShell
@@ -37,7 +39,7 @@ source .venv/bin/activate
 python -m pip install --upgrade pip
 
 # install dependencies
-pip install -e ".[dev]"
+python -m pip install -e ".[dev]"
 
 # run application
 python -m app.main
