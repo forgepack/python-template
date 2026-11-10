@@ -61,6 +61,15 @@ python -m zipfile -l dist/template_python-0.1.0-py3-none-any.whl
 python -m app.main
 ```
 
+## Ruff linter formatting
+
+```bash
+# identifies linting issues and potential code errors
+python -m ruff format .
+# checks whether the code follows the formatting standard
+python -m ruff format --check .
+```
+
 ## Running Tests
 
 ```bash
