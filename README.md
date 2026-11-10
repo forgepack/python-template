@@ -1,5 +1,8 @@
 # _Template Python_
 
+![Python](https://img.shields.io/badge/Python-3.13.5-blue?logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.115.13-009688?logo=fastapi)
+
 ## Endpoints
 
 - `GET /` returns `{"message": "Hello, World!"}`.
@@ -15,10 +18,13 @@ python -m venv .venv
 python3 -m venv .venv
 
 # activate virtual environment
+# Windows PowerShell
 .venv/Scripts/activate
+# Linux
+source .venv/bin/activate
 
-# udpate pip
-python.exe -m pip install --upgrade pip
+# update pip
+python -m pip install --upgrade pip
 
 # install dependencies
 pip install -e ".[dev]"
