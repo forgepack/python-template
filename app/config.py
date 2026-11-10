@@ -1,5 +1,6 @@
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
+
 class Settings(BaseSettings):
     host: str = "127.0.0.1"
     port: int = 9000
@@ -11,5 +12,6 @@ class Settings(BaseSettings):
         env_prefix="UVICORN_",
         extra="ignore",
     )
+
 
 settings = Settings()
