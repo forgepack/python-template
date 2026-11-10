@@ -92,3 +92,13 @@ SOFTWARE.
 ```
 
 <div align="center">
+
+__⭐ Did you like the project? Leave a star! ⭐__
+
+[![GitHub stars](https://img.shields.io/github/stars/forgepack/template-python?style=social)](https://github.com/forgepack/template-python)
+[![GitHub forks](https://img.shields.io/github/forks/forgepack/template-python?style=social)](https://github.com/forgepack/template-python/fork)
+[![GitHub watchers](https://img.shields.io/github/watchers/forgepack/template-python?style=social)](https://github.com/forgepack/template-python)
+
+__Made by [Forgepack](https://github.com/forgepack)__
+
+</div>
