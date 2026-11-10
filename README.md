@@ -7,7 +7,7 @@
 [![GitHub watchers](https://img.shields.io/github/watchers/forgepack/python-template?style=social)](https://github.com/forgepack/python-template)
 
 [![CI](https://github.com/forgepack/python-template/actions/workflows/ci.yml/badge.svg)](https://github.com/forgepack/python-template/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/forgepack/python-template/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/forgepack/python-template/blob/main/LICENSE.md)
 
 </div>
 
@@ -60,7 +60,7 @@ python -m pip install -e ".[dev]"
 python -m build
 
 # inspect the contents of the wheel
-python -m zipfile -l dist/python-template-0.1.0-py3-none-any.whl
+python -m zipfile -l dist/python_template-1.0.0-py3-none-any.whl
 
 # run application (*)
 python -m app.main
