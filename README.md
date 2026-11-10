@@ -1,8 +1,11 @@
-## Template Python 
+# _Template Python_
 
-```
+```bash
 # create virtual environment
+# Windows PowerShell
 python -m venv .venv
+# Linux
+python3 -m venv .venv
 
 # activate virtual environment
 .venv/Scripts/activate
@@ -11,10 +14,9 @@ python -m venv .venv
 python.exe -m pip install --upgrade pip
 
 # install dependencies
-pip install --upgrade -r requirements.txt
+pip install -e ".[dev]"
 
 # run application
-#uvicorn app.main:app --reload --env-file .env
 python -m app.main
 
 # test coverage verification

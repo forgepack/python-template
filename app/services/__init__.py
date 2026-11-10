@@ -1,1 +1,1 @@
-# python services package
+# directory containing the business rules

@@ -2,14 +2,6 @@
 ```directory
 template-python/
 │
-├── .env
-├── .env.dev
-├── .gitignore
-├── AGENTS.md
-├── pyproject.toml
-├── README.md
-├── requirements.txt
-│
 ├── app/
 │   ├── models/
 │   │   └── ...
@@ -17,7 +9,7 @@ template-python/
 │   │   └── ...
 │   ├── routers/
 │   │   └── ...
-│   ├── schemes/
+│   ├── schemas/
 │   │   └── ...
 │   ├── services/
 │   │   └── ...
@@ -30,6 +22,7 @@ template-python/
 │   │       └── ...
 │   ├── templates/
 │   |   └── ...
+|   ├── config.py
 │   └── main.py
 |
 ├── docs/
@@ -42,10 +35,9 @@ template-python/
 │   └── ...
 │
 ├── .env
-├── .env.dev
+├── .env.example
 ├── .gitignore
 ├── AGENTS.md
 ├── pyproject.toml
-├── README.md
-└── requirements.txt
+└── README.md
 ```

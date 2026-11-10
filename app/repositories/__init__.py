@@ -1,1 +1,1 @@
-# python repositories package
+# directory that handles persistence
