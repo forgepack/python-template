@@ -9,6 +9,12 @@ app = FastAPI()
 def hello():
     return {"message": "Hello, World!"}
 
+
+@app.get("/health")
+def health():
+    return {"status": "healthy"}
+
+
 if __name__ == "__main__":
     uvicorn.run(
         "app.main:app",

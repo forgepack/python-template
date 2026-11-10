@@ -1,5 +1,12 @@
 # _Template Python_
 
+## Endpoints
+
+- `GET /` returns `{"message": "Hello, World!"}`.
+- `GET /health` returns `{"status": "healthy"}`.
+
+## Development
+
 ```bash
 # create virtual environment
 # Windows PowerShell
