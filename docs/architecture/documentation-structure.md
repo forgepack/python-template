@@ -11,6 +11,7 @@ template-python/
 │   ├── repositories/
 │   │   └── ...
 │   ├── routers/
+|   |   ├── base.py
 │   │   └── ...
 │   ├── schemas/
 │   │   └── ...
@@ -35,12 +36,14 @@ template-python/
 │       └── roadmap.md
 |
 ├── tests/
-│   └── ...
+│   └── test_main.py
 │
 ├── .env
 ├── .env.example
 ├── .gitignore
 ├── AGENTS.md
+├── CONTRIBUTING.md
+├── LICENSE.md
 ├── pyproject.toml
 └── README.md
 ```

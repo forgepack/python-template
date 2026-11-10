@@ -11,12 +11,22 @@
 ## Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.115.13-009688?logo=fastapi)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?logo=fastapi)
 
 ## Endpoints
 
 - `GET /` returns `{"message": "Hello, World!"}`.
 - `GET /health` returns `{"status": "healthy"}`.
+
+## Configuration
+### _Windows PowerShell_
+```bash
+Copy-Item .env.example .env
+```
+### _Linux_
+```bash
+cp .env.example .env
+```
 
 ## Development
 
@@ -29,7 +39,7 @@ py -3.13 -m venv .venv
 # Linux
 python3.13 -m venv .venv
 
-# activate virtual environment
+# activate virtual environment (*)
 # Windows PowerShell
 .venv/Scripts/activate
 # Linux
@@ -41,7 +51,13 @@ python -m pip install --upgrade pip
 # install dependencies
 python -m pip install -e ".[dev]"
 
-# run application
+# generate the artifacts
+python -m build
+
+# inspect the contents of the wheel
+python -m zipfile -l dist/template_python-0.1.0-py3-none-any.whl
+
+# run application (*)
 python -m app.main
 ```
 

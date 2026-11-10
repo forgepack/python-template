@@ -4,7 +4,10 @@ from fastapi import FastAPI
 from app.config import settings
 from app.routers.base import router as base_router
 
-app = FastAPI()
+app = FastAPI(
+    title="Template Python",
+    version="0.1.0",
+)
 app.include_router(base_router)
 
 
