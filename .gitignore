@@ -16,3 +16,6 @@ template_python.egg-info/
 .pytest_cache/
 htmlcov/
 .coverage
+
+# Linter
+.ruff_cache/
