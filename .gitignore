@@ -13,4 +13,6 @@ __pycache__/
 template_python.egg-info/
 
 # Test coverage
+.pytest_cache/
+htmlcov/
 .coverage
