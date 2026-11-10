@@ -60,7 +60,7 @@ python -m pip install -e ".[dev]"
 python -m build
 
 # inspect the contents of the wheel
-python -m zipfile -l dist/template_python-0.1.0-py3-none-any.whl
+python -m zipfile -l dist/python-template-0.1.0-py3-none-any.whl
 
 # run application (*)
 python -m app.main
@@ -69,10 +69,14 @@ python -m app.main
 ## Ruff linter formatting
 
 ```bash
-# identifies linting issues and potential code errors
-python -m ruff format .
 # checks whether the code follows the formatting standard
 python -m ruff format --check .
+
+# Automatically formats the code to follow the standard
+python -m ruff format .
+
+# Identifies linting issues and potential code errors
+python -m ruff check .
 ```
 
 ## Running Tests
