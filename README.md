@@ -1,16 +1,22 @@
 <div align="center">
 
-# _Template Python_
+# _Python Template_
 
-[![GitHub stars](https://img.shields.io/github/stars/forgepack/template-python?style=social)](https://github.com/forgepack/template-python)
-[![GitHub forks](https://img.shields.io/github/forks/forgepack/template-python?style=social)](https://github.com/forgepack/template-python/fork)
-[![GitHub watchers](https://img.shields.io/github/watchers/forgepack/template-python?style=social)](https://github.com/forgepack/template-python)
+[![GitHub stars](https://img.shields.io/github/stars/forgepack/python-template?style=social)](https://github.com/forgepack/python-template)
+[![GitHub forks](https://img.shields.io/github/forks/forgepack/python-template?style=social)](https://github.com/forgepack/python-template/fork)
+[![GitHub watchers](https://img.shields.io/github/watchers/forgepack/python-template?style=social)](https://github.com/forgepack/python-template)
+
+[![CI](https://github.com/forgepack/python-template/actions/workflows/ci.yml/badge.svg)](https://github.com/forgepack/python-template/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/forgepack/python-template/blob/main/LICENSE)
 
 </div>
+
+Reusable Python application template built with FastAPI.
 
 ## Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
+![Python](https://img.shields.io/badge/Python-3.13%2B-blue.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?logo=fastapi)
 
 ## Endpoints
@@ -92,37 +98,13 @@ python -m pytest -v
 
 This project is licensed under the __MIT License__ - see the [MIT LICENSE](https://choosealicense.com/licenses/mit/) file for details.
 
-```text
-MIT License
-
-Copyright (c) 2024 Gadelha TI
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
 <div align="center">
 
 __⭐ Did you like the project? Leave a star! ⭐__
 
-[![GitHub stars](https://img.shields.io/github/stars/forgepack/template-python?style=social)](https://github.com/forgepack/template-python)
-[![GitHub forks](https://img.shields.io/github/forks/forgepack/template-python?style=social)](https://github.com/forgepack/template-python/fork)
-[![GitHub watchers](https://img.shields.io/github/watchers/forgepack/template-python?style=social)](https://github.com/forgepack/template-python)
+[![GitHub stars](https://img.shields.io/github/stars/forgepack/python-template?style=social)](https://github.com/forgepack/python-template)
+[![GitHub forks](https://img.shields.io/github/forks/forgepack/python-template?style=social)](https://github.com/forgepack/python-template/fork)
+[![GitHub watchers](https://img.shields.io/github/watchers/forgepack/python-template?style=social)](https://github.com/forgepack/python-template)
 
 __Made by [Forgepack](https://github.com/forgepack)__
 

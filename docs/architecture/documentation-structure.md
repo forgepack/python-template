@@ -1,6 +1,6 @@
 
 ```directory
-template-python/
+python-template/
 │
 ├── .github/
 │   └── workflows/
@@ -38,7 +38,6 @@ template-python/
 ├── tests/
 │   └── test_main.py
 │
-├── .env
 ├── .env.example
 ├── .gitignore
 ├── AGENTS.md
