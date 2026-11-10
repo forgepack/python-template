@@ -2,18 +2,10 @@ import uvicorn
 from fastapi import FastAPI
 
 from app.config import settings
+from app.routers.base import router as base_router
 
 app = FastAPI()
-
-
-@app.get("/")
-def hello():
-    return {"message": "Hello, World!"}
-
-
-@app.get("/health")
-def health():
-    return {"status": "healthy"}
+app.include_router(base_router)
 
 
 if __name__ == "__main__":
