@@ -10,7 +10,9 @@ __pycache__/
 .env
 
 # Python package metadata
-template_python.egg-info/
+*.egg-info/
+dist/
+build/
 
 # Test coverage
 .pytest_cache/
