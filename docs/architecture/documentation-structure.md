@@ -2,6 +2,9 @@
 ```directory
 template-python/
 │
+├── .github/
+│   └── workflows/
+│       └── ci.yml
 ├── app/
 │   ├── models/
 │   │   └── ...
