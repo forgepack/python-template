@@ -1,6 +1,6 @@
 # _Template Python_
 
-![Python](https://img.shields.io/badge/Python-3.13.5-blue?logo=python)
+![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.115.13-009688?logo=fastapi)
 
 ## Endpoints
