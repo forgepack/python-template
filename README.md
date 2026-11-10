@@ -15,7 +15,6 @@ Reusable Python application template built with FastAPI.
 
 ## Tech Stack
 
-![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
 ![Python](https://img.shields.io/badge/Python-3.13%2B-blue.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?logo=fastapi)
 
